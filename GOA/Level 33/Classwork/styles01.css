@@ -1,0 +1,32 @@
+.example-box {
+    padding: 20px 15px 10px 5px; 
+
+    margin: 25px 20px 15px 10px; 
+
+    background-color: #e0f7fa; 
+
+    border: 2px solid #00796b; 
+
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #004d40; 
+}
+
+.example-box {
+
+    padding-top: 20px; 
+    padding-right: 15px;
+    padding-bottom: 10px; 
+    padding-left: 5px; 
+
+    margin-top: 25px; 
+    margin-right: 20px; 
+    margin-bottom: 15px; 
+    margin-left: 10px; 
+
+    background-color: #e0f7fa; 
+    border: 2px solid #00796b; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #004d40; 
+}
