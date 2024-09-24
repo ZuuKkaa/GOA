@@ -1,0 +1,13 @@
+.div-block {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    transition: transform 0.3s;
+  }
+  .div-block:hover {
+    transform: rotate(45deg);
+  }
+  .div-block:active {
+    transform: rotate(-45deg);
+  }
+  

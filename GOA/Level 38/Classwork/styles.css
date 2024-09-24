@@ -1,0 +1,33 @@
+body {  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.my-div {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 234, 255); 
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 1s ease-in-out, transform 0.7s ease-in-out, border-radius 1s ease-in-out;
+}
+.my-div:hover {
+    background-color: rgb(25, 25, 237); 
+    transform: rotate(720deg)  translate(20px); 
+    border-radius: 50%; 
+}
+div{    
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes my-animation {
+    from {
+        background-color: rgb(40, 79, 83); 
+    }
+    to {
+        background-color: rgb(45, 45, 104);
+    }
+
+}
